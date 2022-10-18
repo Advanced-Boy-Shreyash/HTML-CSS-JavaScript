@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Gym Fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="Home.css">
+<link rel="stylesheet" href="Contact.css">
+
+<body>
+  <header class="header">
+    <!-- Left box for logo -->
+    <div class="left">
+      <a href="Home.html"><img src="gym.jpg" alt="logo"></a>
+      <div>
+        Gym Fitness
+      </div>
+    </div>
+
+    <!-- Mid box for navbar -->
+    <div class="mid">
+      <ul class="navbar">
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="About.html">About Us</a></li>
+        <li><a href="Calc.html">Fitness Calculator</a></li>
+        <li><a href="Contact.html" class="active">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <!-- Right box for buttons -->
+    <div class="right">
+      <button class="btn">Call Us Now</button>
+      <button class="btn">Email Us</button>
+    </div>
+  </header>
+
+  <h3>Contact Form</h3>
+
+  <div class="container">
+    <form action="action_page.php">
+      <label for="fname" class="label">First Name</label>
+      <input type="text" name="firstname" placeholder="Your name..">
+
+      <label for="lname" class="label">Last Name</label>
+      <input type="text" placeholder="Your last name..">
+
+      <label for="country" class="label">Country</label>
+      <select name="country">
+        <option value="australia">India</option>
+        <option value="canada">Nepal</option>
+        <option value="usa">England</option>
+      </select>
+
+      <label for="subject" class="label">Subject</label>
+      <textarea name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+</html>
